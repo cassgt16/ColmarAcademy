@@ -1,0 +1,136 @@
+/* General Styles */
+
+h1{
+  color: #575756;
+  font-size: 60px;
+  font-weight: bold;
+  font-family: sans-serif;
+}
+
+p{
+  color: #575756;
+  font-family: sans-serif;
+}
+
+li, span, h2{
+  font-family: sans-serif;
+}
+
+h2{
+  font-size: 20px;
+  color: #575756;
+  font-weight: bold;
+}
+
+/* Header */
+
+.uppercase{
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+#academy{
+  color: grey;
+}
+
+.header{
+  display: flex;
+  height: 64px;
+  align-items: center;
+}
+
+.header img{
+  padding-left: 24px;
+}
+
+.header ul {
+  display: flex;
+  left: 200%;
+}
+
+.header li{
+  padding-left: 16px;
+  display: inline;
+}
+
+#signIn{
+  padding-right: 24px;
+}
+
+/* Banner */
+
+.mainBanner{
+  background-color: lightgrey;
+  display: flex;
+}
+
+.mainBanner img{
+  padding: 32px 24px;
+  width: 60%;
+}
+
+.bannerText{
+  display: block;
+  align-items: center;
+}
+
+#CTA{
+  background-color: #575756;
+  color: white;
+  padding: 8px 80px;
+}
+
+
+/* Article left side */
+
+
+.article{
+}
+
+.article img{
+  padding: 32px 24px;
+}
+
+.article h1{
+  padding: 0px 24px 32px 24px;
+}
+
+.article p{
+  padding: 0px 24px 32px 24px;
+}
+
+
+/* Links to other articles on right */
+
+.mainBody{
+  display: flex;
+}
+
+.otherArticles{
+}
+
+.miniArticle {
+  display: flex;
+  padding: 16px 16px;
+  align-items: center;
+  border-style: solid;
+  border-color: grey;
+  border-width: thin;
+}
+
+.articleTexts{
+  display: block;
+}
+
+.miniArticle img{
+  height: auto;
+}
+
+.readMore{
+  color: blue;
+  padding: 8px 0px;
+}
+
+.ourGuestLecture {
+  background-color: lightgrey;
+}

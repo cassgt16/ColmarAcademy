@@ -2,8 +2,8 @@
 <html>
 
   <head>
-    <link rel="stylesheet" href="resources/style.css" type="text/css">
     <link rel="stylesheet" href="resources/reset.css" type="text/css">
+    <link rel="stylesheet" href="resources/style.css" type="text/css">
     <title>Colmar Academy</title>
   </head>
 
@@ -15,14 +15,14 @@
 
     <div class="header">
       <img src="Resources\images\ic-logo.svg" alt="Lion">
-      <span>Colmar</span>
-      <span>Academy</span>
+      <span class="uppercase">Colmar</span>
+      <span id="academy" class="uppercase">Academy</span>
       <nav>
         <ul>
           <li>On campus</li>
           <li>Online</li>
           <li>For companies</li>
-          <li>Sign in</li>
+          <li id="signIn">Sign in</li>
         </ul>
       </nav>
     </div>
@@ -31,50 +31,67 @@
 
     <div class="mainBanner">
       <img src="Resources\images\banner.jpg" alt="Banner">
-      <h1>Learn something new everyday</h1>
-      <span>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
-      <span>Start here</span>
+      <div class="bannerText">
+        <h1>Learn something new everyday</h1>
+        <br>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</span>
+        <br>
+        <p id="CTA">Start here</span>
+      </div>
     </div>
 
 
-<!-- Articles left side -->
 
 
-    <div class="article">
-      <img src="Resources\images\information-main.jpg" alt="article">
-      <h1>It doesn't hurt to keep practicing</h1>
-      <p>"Curabitor vitae libero in ipsum portitor consequat.
-        Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna.
-        Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula"</p>
-      <span>Emanuel, Sr Strategist at Hiring.com</span>
+<!-- Main body -->
 
-    </div>
+<div class="mainBody">
 
-<!-- Links to other articles on right -->
+  <!-- Article left side -->
 
-    <div class="otherArticles">
-      <div class="orientationDate">
-        <img src="Resources\images\information-orientation.jpg" alt="Orientation date">
-        <h2>Orientation date</h2>
-        <span>Tue 10/11 & Wed 10/12: 8am-3pm</span>
-        <span>Read more</span>
+      <div class="article">
+        <img src="Resources\images\information-main.jpg" alt="article">
+        <h1>It doesn't hurt to keep practicing</h1>
+        <p>"Curabitor vitae libero in ipsum portitor consequat.
+          Aliquam et commodo lectus, nec consequat neque. Sed non accumsan urna.
+          Phasellus sed consequat ex. Etiam eget magna laoreet, efficitur dolor consequat, tristique ligula"</p>
+        <p id="author">Emanuel, Sr Strategist at Hiring.com</p>
+
       </div>
+  <!-- Links to other articles on right -->
 
-      <div class="ourCampus">
-        <img src="Resources\images\information-campus.jpg" alt="Our campus">
-        <h2>Our campus</h2>
-        <span>Find which campus is close by you</span>
-        <span>Read more</span>
+      <div class="otherArticles">
+        <div class="orientationDate miniArticle">
+          <img src="Resources\images\information-orientation.jpg" alt="Orientation date">
+          <div class="articleTexts">
+            <h2>Orientation date</h2>
+            <p>Tue 10/11 & Wed 10/12: 8am-3pm</p>
+            <p class="readMore">Read more</p>
+          </div>
+        </div>
+
+        <div class="ourCampus miniArticle">
+          <img src="Resources\images\information-campus.jpg" alt="Our campus">
+          <div class="articleTexts">
+            <h2>Our campus</h2>
+            <p>Find which campus is close by you</p>
+            <p class="readMore">Read more</p>
+          </div>
+        </div>
+
+        <div class="ourGuestLecture miniArticle">
+          <img src="Resources\images\information-guest-lecture.jpg" alt="Our guest lecture">
+          <div class="articleTexts">
+            <h2>Our guest lecture</h2>
+            <p>Join a keynote with Oliver Sack about music in medical tratment</p>
+            <p class="readMore">Read more</p>
+          </div>
+        </div>
+
       </div>
+</div>
 
-      <div class="ourGuestLecture">
-        <img src="Resources\images\information-guest-lecture.jpg" alt="Our guest lecture">
-        <h2>Our guest lecture</h2>
-        <span>Join a keynote with Oliver Sack about music in medical tratment</span>
-        <span>Read more</span>
-      </div>
 
-    </div>
 
 <!-- Start Learning -->
 
